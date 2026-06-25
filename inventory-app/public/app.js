@@ -269,16 +269,32 @@ if (tb) {
   });
 }
 
+function formatDateLabel(value){
+  if(!value) return 'Not set';
+  const d = new Date(value);
+  return Number.isNaN(d.getTime()) ? 'Not set' : d.toLocaleDateString();
+}
+
 function renderCalibration(){
   const main = document.getElementById('main'); main.innerHTML='';
-  const card = el('div','card animate-on-scroll'); card.appendChild(el('h2',null,'Calibration'));
+  const card = el('div','card'); card.appendChild(el('h2',null,'Calibration'));
+  const intro = el('div','calibration-help','Keep track of calibration due dates and open the last uploaded certificate when available.');
+  card.appendChild(intro);
   instruments.forEach(it=>{
-    const row = el('div'); row.style.display='flex'; row.style.justifyContent='space-between'; row.style.alignItems='center'; row.style.padding='8px 0';
+    const row = el('div','calibration-row');
     const dueMs = it.nextCalibrationDate ? (new Date(it.nextCalibrationDate)-new Date()) : Infinity;
     const days = Math.round(dueMs / (24*3600*1000));
-    const left = el('div',null, `${it.name} ${it.model} (${it.serial}) - next in ${isFinite(days)?days+' days':'n/a'}`);
-    const btn = el('button','btn', 'Mark Calibrated'); btn.onclick = async ()=>{
-      // show modal to accept certificate link and cycle days
+    const info = el('div','calibration-info');
+    const title = el('div','calibration-title', `${it.name} ${it.model}`);
+    const meta = el('div','calibration-meta', `Serial: ${it.serial} • Next due: ${isFinite(days) ? days + ' days' : 'n/a'} • Last: ${formatDateLabel(it.lastCalibrationDate)}`);
+    info.appendChild(title); info.appendChild(meta);
+    const actions = el('div','calibration-actions');
+    const certBtn = el('button','btn ghost calibration-cert-btn', it.calibrationCertificateUrl ? 'View last certificate' : 'No certificate');
+    certBtn.disabled = !it.calibrationCertificateUrl;
+    certBtn.onclick = ()=>{
+      if(it.calibrationCertificateUrl){ window.open(it.calibrationCertificateUrl, '_blank', 'noopener,noreferrer'); }
+    };
+    const calibrateBtn = el('button','btn','Mark Calibrated'); calibrateBtn.onclick = async ()=>{
       const m = await showModal('Calibrate instrument', [
         { name: 'certificateUrl', label: 'Certificate URL (optional)', value: it.calibrationCertificateUrl || '', type: 'text' },
         { name: 'cycleDays', label: 'Calibration cycle (days)', value: it.calibrationCycleDays || '365', type: 'number' }
@@ -287,7 +303,8 @@ function renderCalibration(){
       await fetch('/api/calibrate',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({instrumentId: it.id, byUserId: currentUserId, certificateUrl: m.certificateUrl, cycleDays: m.cycleDays})});
       loadAll();
     };
-    row.appendChild(left); row.appendChild(btn);
+    actions.appendChild(certBtn); actions.appendChild(calibrateBtn);
+    row.appendChild(info); row.appendChild(actions);
     if(dueMs < 7*24*3600*1000) row.classList.add('red');
     card.appendChild(row);
   });
@@ -295,38 +312,148 @@ function renderCalibration(){
   animateInView();
 }
 
+function openLearningModal(it){
+  const overlay = el('div','learning-modal-overlay');
+  const modal = el('div','learning-modal');
+  const header = el('div','learning-modal-header');
+  const titleWrap = el('div','learning-modal-title-wrap');
+  const title = el('h3','learning-modal-title', `${it.name} ${it.model}`);
+  const subtitle = el('div','learning-modal-subtitle', `${it.category || 'Instrument'} • ${it.brand || 'Premium instrument'}`);
+  titleWrap.appendChild(title); titleWrap.appendChild(subtitle);
+  const actions = el('div','learning-modal-actions');
+  const backBtn = el('button','btn ghost learning-modal-back','Back');
+  backBtn.onclick = ()=> overlay.remove();
+  const closeBtn = el('button','btn ghost learning-modal-close','Close');
+  closeBtn.onclick = ()=> overlay.remove();
+  actions.appendChild(backBtn); actions.appendChild(closeBtn);
+  header.appendChild(titleWrap); header.appendChild(actions);
+  modal.appendChild(header);
+
+  const body = el('div','learning-modal-body');
+  const left = el('div','learning-modal-left');
+  const imageWrap = el('div','learning-modal-gallery');
+  const images = Array.isArray(it.productImages) ? it.productImages.filter(Boolean) : [];
+  if (images.length){
+    const mainImage = document.createElement('img');
+    mainImage.src = images[0]; mainImage.alt = it.name; mainImage.className = 'learning-modal-main-image';
+    imageWrap.appendChild(mainImage);
+    if (images.length > 1) {
+      const thumbs = el('div','learning-modal-thumbs');
+      images.slice(1).forEach(src=>{
+        const thumb = document.createElement('img'); thumb.src = src; thumb.alt = `${it.name} view`; thumb.className='learning-modal-thumb'; thumbs.appendChild(thumb);
+      });
+      imageWrap.appendChild(thumbs);
+    }
+  } else {
+    imageWrap.appendChild(el('div','learning-modal-empty','No image available'));
+  }
+  left.appendChild(imageWrap);
+
+  const summaryCard = el('div','learning-summary-card');
+  const overview = el('div','learning-summary-block');
+  overview.innerHTML = `<h4>Product Overview</h4><p>${(it.productOverview || 'A short overview helps explain the purpose and value of this instrument.').replace(/\n/g, '<br>')}</p>`;
+  summaryCard.appendChild(overview);
+
+  const quickFacts = el('div','learning-fact-grid');
+  const factItems = [
+    ['Model', it.model || 'Not set'],
+    ['Brand', it.brand || 'Not set'],
+    ['Serial', it.serial || 'Not set'],
+    ['Category', it.category || 'Instrument']
+  ];
+  factItems.forEach(([label, value])=>{
+    const fact = el('div','learning-fact');
+    fact.innerHTML = `<strong>${label}</strong><span>${value}</span>`;
+    quickFacts.appendChild(fact);
+  });
+  summaryCard.appendChild(quickFacts);
+  left.appendChild(summaryCard);
+  body.appendChild(left);
+
+  const right = el('div','learning-modal-right');
+  const sections = [
+    ['Specifications', it.specifications],
+    ['Parameters Measured', it.parametersMeasured],
+    ['Accuracy', it.accuracy],
+    ['Measurement Range', it.measurementRange],
+    ['Resolution', it.resolution],
+    ['Applications', it.applications],
+    ['Operating Procedure', it.operatingProcedure],
+    ['Calibration Procedure', it.calibrationProcedure],
+    ['Safety Instructions', it.safetyInstructions]
+  ];
+  sections.forEach(([title, value])=>{
+    const section = el('div','learning-detail-section');
+    const heading = el('h4','learning-section-title', title);
+    const content = el('div','learning-section-content');
+    content.textContent = value || 'No information provided for this section yet.';
+    content.style.whiteSpace = 'pre-wrap';
+    section.appendChild(heading); section.appendChild(content); right.appendChild(section);
+  });
+
+  const links = el('div','learning-links');
+  if (it.userManualUrl) {
+    const manual = document.createElement('a'); manual.href = it.userManualUrl; manual.target='_blank'; manual.rel='noopener'; manual.className='learning-link-btn'; manual.textContent = 'Open user manual'; links.appendChild(manual);
+  }
+  if (it.youtubeUrl) {
+    const video = document.createElement('a'); video.href = it.youtubeUrl; video.target='_blank'; video.rel='noopener'; video.className='learning-link-btn'; video.textContent = 'Watch demo video'; links.appendChild(video);
+  }
+  if (links.childNodes.length) {
+    right.appendChild(links);
+  }
+
+  body.appendChild(right);
+  modal.appendChild(body);
+  overlay.appendChild(modal);
+  document.body.appendChild(overlay);
+  document.body.style.overflow = 'hidden';
+  overlay.addEventListener('click', (event) => { if (event.target === overlay) { overlay.remove(); document.body.style.overflow = ''; } });
+  const handleKey = (event) => { if (event.key === 'Escape') { overlay.remove(); document.body.style.overflow = ''; document.removeEventListener('keydown', handleKey); } };
+  document.addEventListener('keydown', handleKey);
+}
+
 function renderLearning(){
   const main = document.getElementById('main'); main.innerHTML='';
-  const card = el('div','card animate-on-scroll'); card.appendChild(el('h2',null,'Learning'));
+  const card = el('div','card'); card.appendChild(el('h2',null,'Learning'));
+  const hero = el('div','learning-hero');
+  hero.innerHTML = '<h3>Learn with focused instrument details</h3><p>Select a card to open a polished details pop-up with images, overview, technical details, safety notes, manuals, and demo videos.</p>';
+  card.appendChild(hero);
+  if (!instruments.length) {
+    const empty = el('div','learning-placeholder','No instruments are available yet. Add one in Inventory to start learning about it.');
+    card.appendChild(empty);
+    main.appendChild(card);
+    return;
+  }
+
+  const grid = el('div','learning-grid');
+  card.appendChild(grid);
+
   instruments.forEach(it=>{
-    const row = el('div'); row.style.display='flex'; row.style.gap='16px'; row.style.alignItems='flex-start';
-    const left = el('div',null); left.style.minWidth='260px';
+    const preview = el('button','learning-preview');
+    preview.type = 'button';
+    preview.dataset.id = it.id;
+    const imageWrap = el('div','learning-preview-image');
     if (it.productImages && it.productImages.length){
-      it.productImages.forEach(url=>{ const i = document.createElement('img'); i.src = url; i.style.width='100%'; i.style.maxWidth='240px'; i.style.height='160px'; i.style.objectFit='cover'; i.style.marginBottom='8px'; left.appendChild(i); });
+      const img = document.createElement('img'); img.src = it.productImages[0]; img.alt = it.name; img.className='learning-image'; imageWrap.appendChild(img);
     } else {
-      const placeholder = document.createElement('div'); placeholder.style.width='240px'; placeholder.style.height='160px'; placeholder.style.background='#f3f4f6'; placeholder.style.display='flex'; placeholder.style.alignItems='center'; placeholder.style.justifyContent='center'; placeholder.style.color='var(--muted)'; placeholder.textContent='No image'; left.appendChild(placeholder);
+      const placeholder = el('div','learning-placeholder','No image'); imageWrap.appendChild(placeholder);
     }
-    const right = el('div',null);
-    const title = el('div',null, `${it.name} ${it.model}`); title.style.fontWeight='700'; title.style.fontSize='18px';
-    const overview = el('div',null, it.productOverview || it.overview || '<i>No overview</i>'); overview.style.color='var(--muted)'; overview.style.marginTop='6px';
-    const metaList = el('div',null,`Parameters: ${it.parametersMeasured||'n/a'} • Accuracy: ${it.accuracy||'n/a'} • Range: ${it.measurementRange||'n/a'} • Resolution: ${it.resolution||'n/a'}`);
-    metaList.style.color='var(--muted)'; metaList.style.marginTop='8px';
-    const specs = el('pre',null, it.specifications || it.specs || ''); specs.style.background='#fafafa'; specs.style.padding='8px'; specs.style.borderRadius='8px'; specs.style.whiteSpace='pre-wrap'; specs.style.marginTop='8px';
-    const extra = el('div',null,''); extra.style.marginTop='8px';
-    if(it.userManualUrl){ const a = document.createElement('a'); a.href = it.userManualUrl; a.textContent = 'Download user manual (PDF)'; a.target='_blank'; extra.appendChild(a); }
-    // embed youtube if present
-    if(it.youtubeUrl){
-      try{
-        const vid = (it.youtubeUrl.split('v=')[1] || it.youtubeUrl.split('/').pop()).split('&')[0];
-        const iframe = document.createElement('iframe'); iframe.width='560'; iframe.height='315'; iframe.src = `https://www.youtube.com/embed/${vid}`; iframe.allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'; iframe.style.marginTop='12px'; iframe.style.maxWidth='560px'; iframe.style.width='100%'; right.appendChild(iframe);
-      }catch(e){ /* ignore */ }
-    }
-    right.appendChild(title); right.appendChild(overview); right.appendChild(metaList); right.appendChild(specs); right.appendChild(extra);
-    row.appendChild(left); row.appendChild(right);
-    card.appendChild(row);
+    const info = el('div','learning-preview-info');
+    const title = el('div','learning-preview-title', `${it.name}`);
+    const model = el('div','learning-preview-model', it.model || 'Model not set');
+    const badge = el('div','learning-preview-badge', it.category || 'Instrument');
+    info.appendChild(title); info.appendChild(model); info.appendChild(badge);
+    preview.appendChild(imageWrap); preview.appendChild(info);
+    preview.addEventListener('click', (event) => {
+      event.preventDefault();
+      document.querySelectorAll('.learning-preview').forEach(btn => btn.classList.remove('active'));
+      preview.classList.add('active');
+      openLearningModal(it);
+    });
+    grid.appendChild(preview);
   });
+
   main.appendChild(card);
-  animateInView();
 }
 
 function setupNav(){
@@ -413,8 +540,23 @@ async function showBulkReturnModal(ids){
 }
 
 async function loadAll(){
-  instruments = await api('/instruments');
-  renderDashboard();
+  try {
+    instruments = await api('/instruments');
+  } catch (err) {
+    console.error('Failed to load instruments', err);
+    instruments = [];
+  }
+  const active = document.querySelector('.sidebar button.active');
+  if (active) {
+    const v = active.dataset.view;
+    if (v === 'dashboard') renderDashboard();
+    if (v === 'inventory') renderInventory();
+    if (v === 'booking') renderBooking();
+    if (v === 'calibration') renderCalibration();
+    if (v === 'learning') renderLearning();
+  } else {
+    renderLearning();
+  }
 }
 
 socket.on('instruments', data => {

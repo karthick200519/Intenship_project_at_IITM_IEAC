@@ -27,8 +27,25 @@
       "brand": "Fluke",
       "model": "Fluke 1775",
       "serial": "PQF01",
-      "lastCalibrationDate": "2026-06-24T06:07:49.752Z",
-      "nextCalibrationDate": "2027-06-24T06:07:49.752Z"
+      "lastCalibrationDate": "2026-06-25T07:23:50.618Z",
+      "nextCalibrationDate": "2027-07-05T07:23:50.618Z",
+      "productImages": [
+        "https://5.imimg.com/data5/SELLER/Default/2021/11/XW/PK/ZQ/15456961/fluke-1775-power-quality-analyser.jpg"
+      ],
+      "productOverview": "The Fluke 1775 Power Quality Analyzer is a three-phase portable power quality monitoring instrument designed for troubleshooting, energy audits, preventive maintenance, and compliance testing. It records electrical parameters continuously while identifying disturbances such as voltage sags, swells, harmonics, transients, flicker, imbalance, and power interruptions. The analyzer supports automatic measurement setup, advanced waveform capture, event recording, and long-duration data logging. It complies with IEC 61000-4-30 Class A standards, making it suitable for utility, industrial, and commercial applications.",
+      "specifications": "Parameter\t        Specification\nInstrument Type\t        Three Phase Power Quality Analyzer\nVoltage Channels\t4\nCurrent Channels\t4\nFrequency\t        50/60 Hz\nData Storage\t        Internal Memory\nCommunication\t        USB, Ethernet, Wi-Fi\nDisplay         \t7-inch Color Touchscreen\nCAT Rating\t        CAT IV 600 V / CAT III 1000 V\nCompliance\t        IEC 61000-4-30 Class A\nBattery         \tRechargeable Lithium-ion",
+      "parametersMeasured": "Phase Voltage,\nLine Voltage,\nPhase Current,\nNeutral Current,\nFrequency,\nActive Power (kW),\nReactive Power (kVAR),\nApparent Power (kVA),\nPower Factor,\nEnergy Consumption (kWh),\nDemand,\nHarmonics,\nTotal Harmonic Distortion (THD),\nVoltage Unbalance,\nCurrent Unbalance,\nVoltage Sag,\nVoltage Swell,\nInterruptions,\nFlicker,\nTransients,\nCrest Factor,\nInrush Current.",
+      "accuracy": "Voltage\t±0.1% of reading , Current\t±0.2% of reading (depends on probe),   Frequency\t±0.01 Hz ,  Active Power\t ±0.5%,   Energy\t±0.5% , Harmonics  \tIEC Class A Compliance.",
+      "measurementRange": "Voltage\t1 V to 1000 V AC,   Current\t-Depends on Current Clamp (typically 0.5 A to 6000 A) , Frequency\t42.5–69 Hz,  Power-\tUp to system capacity , Harmonics\t 0–100% , THD\t0–100%.",
+      "resolution": "Voltage\t0.01 V , Current\t0.01 A , Frequency\t0.01 Hz , Power\t0.01 kW,  Energy\t0.001 kWh , Harmonics\t0.1%.",
+      "applications": "Industrial Energy Audits\nTransformer Loading Analysis\nMotor Performance Evaluation\nPower Quality Studies\nElectrical Maintenance\nUtility Distribution Monitoring\nHarmonic Analysis\nRenewable Energy Systems\nBuilding Electrical Systems\nCompliance Testing",
+      "operatingProcedure": "Inspect the analyzer and accessories.\nVerify calibration status.\nConnect voltage leads to the three phases and neutral.\nConnect current clamps in the correct direction.\nPower on the analyzer.\nSelect wiring configuration.\nVerify phase sequence.\nConfigure recording duration.\nStart measurement.\nMonitor real-time electrical parameters.\nSave recorded data.\nTransfer data to PC using Fluke Energy Analyze Plus software.\nDisconnect probes safely.\nStore the analyzer properly.",
+      "calibrationProcedure": "Clean the instrument.\nInspect voltage leads and current clamps.\nConnect the analyzer to a certified calibration source.\nApply known reference voltages.\nApply calibrated current.\nVerify voltage accuracy.\nVerify current accuracy.\nVerify frequency measurement.\nVerify harmonic measurements.\nAdjust calibration if required.\nPerform functional verification.\nGenerate calibration certificate.\nLabel calibration date.\nRecord calibration history.",
+      "safetyInstructions": "Wear appropriate PPE.\nVerify CAT rating before use.\nInspect test leads before connecting.\nNever exceed rated voltage.\nConnect neutral first when applicable.\nEnsure correct current clamp orientation.\nDo not touch live conductors.\nDisconnect power before removing probes whenever possible.\nUse insulated gloves.\nAvoid wet environments.\nFollow lock-out/tag-out procedures.\nStore in a dry location.\nRecharge battery using approved charger only.\nFollow manufacturer's operating manual.",
+      "userManualUrl": "https://drive.google.com/file/d/1DO0bbnuIvm83nyMbTXlHsHinJlhACO4f/view?usp=drivesdk",
+      "youtubeUrl": "https://youtu.be/QaBlpZpG8Is?si=_5I0AVCIMpQPdd5h",
+      "calibrationCycleDays": 375,
+      "calibrationCertificateUrl": "https://drive.google.com/file/d/1DO0bbnuIvm83nyMbTXlHsHinJlhACO4f/view?usp=drivesdk"
     },
     {
       "id": "G-U0Vpbz",
@@ -39,8 +56,24 @@
       "brand": "Fluke",
       "model": "Fluke 1775",
       "serial": "PQF02",
-      "lastCalibrationDate": "2026-06-24T06:07:57.542Z",
-      "nextCalibrationDate": "2027-06-24T06:07:57.542Z"
+      "lastCalibrationDate": "2026-06-25T07:08:26.774Z",
+      "nextCalibrationDate": "2027-06-25T07:08:26.774Z",
+      "productImages": [
+        "https://5.imimg.com/data5/SELLER/Default/2021/11/XW/PK/ZQ/15456961/fluke-1775-power-quality-analyser.jpg"
+      ],
+      "productOverview": "The Fluke 1775 Power Quality Analyzer is a three-phase portable power quality monitoring instrument designed for troubleshooting, energy audits, preventive maintenance, and compliance testing. It records electrical parameters continuously while identifying disturbances such as voltage sags, swells, harmonics, transients, flicker, imbalance, and power interruptions. The analyzer supports automatic measurement setup, advanced waveform capture, event recording, and long-duration data logging. It complies with IEC 61000-4-30 Class A standards, making it suitable for utility, industrial, and commercial applications.",
+      "specifications": "Parameter\tSpecification\nInstrument Type\tThree Phase Power Quality Analyzer\nVoltage Channels\t4\nCurrent Channels\t4\nFrequency\t50/60 Hz\nData Storage\tInternal Memory\nCommunication\tUSB, Ethernet, Wi-Fi\nDisplay\t7-inch Color Touchscreen\nCAT Rating\tCAT IV 600 V / CAT III 1000 V\nCompliance\tIEC 61000-4-30 Class A\nBattery\tRechargeable Lithium-ion",
+      "parametersMeasured": "Phase Voltage\nLine Voltage\nPhase Current\nNeutral Current\nFrequency\nActive Power (kW)\nReactive Power (kVAR)\nApparent Power (kVA)\nPower Factor\nEnergy Consumption (kWh)\nDemand\nHarmonics\nTotal Harmonic Distortion (THD)\nVoltage Unbalance\nCurrent Unbalance\nVoltage Sag\nVoltage Swell\nInterruptions\nFlicker\nTransients\nCrest Factor\nInrush Current",
+      "accuracy": "Voltage\t±0.1% of reading , Current\t±0.2% of reading (depends on probe),   Frequency\t±0.01 Hz ,  Active Power\t ±0.5%,   Energy\t±0.5% , Harmonics  \tIEC Class A Compliance",
+      "measurementRange": "Voltage\t1 V to 1000 V AC,   Current\t-Depends on Current Clamp (typically 0.5 A to 6000 A) , Frequency\t42.5–69 Hz,  Power-\tUp to system capacity , Harmonics\t 0–100% , THD\t0–100%.",
+      "resolution": "Voltage\t0.01 V , Current\t0.01 A , Frequency\t0.01 Hz , Power\t0.01 kW,  Energy\t0.001 kWh , Harmonics\t0.1%",
+      "applications": "Industrial Energy Audits\nTransformer Loading Analysis\nMotor Performance Evaluation\nPower Quality Studies\nElectrical Maintenance\nUtility Distribution Monitoring\nHarmonic Analysis\nRenewable Energy Systems\nBuilding Electrical Systems\nCompliance Testing",
+      "operatingProcedure": "Inspect the analyzer and accessories.\nVerify calibration status.\nConnect voltage leads to the three phases and neutral.\nConnect current clamps in the correct direction.\nPower on the analyzer.\nSelect wiring configuration.\nVerify phase sequence.\nConfigure recording duration.\nStart measurement.\nMonitor real-time electrical parameters.\nSave recorded data.\nTransfer data to PC using Fluke Energy Analyze Plus software.\nDisconnect probes safely.\nStore the analyzer properly.",
+      "calibrationProcedure": "Clean the instrument.\nInspect voltage leads and current clamps.\nConnect the analyzer to a certified calibration source.\nApply known reference voltages.\nApply calibrated current.\nVerify voltage accuracy.\nVerify current accuracy.\nVerify frequency measurement.\nVerify harmonic measurements.\nAdjust calibration if required.\nPerform functional verification.\nGenerate calibration certificate.\nLabel calibration date.\nRecord calibration history.",
+      "safetyInstructions": "Wear appropriate PPE.\nVerify CAT rating before use.\nInspect test leads before connecting.\nNever exceed rated voltage.\nConnect neutral first when applicable.\nEnsure correct current clamp orientation.\nDo not touch live conductors.\nDisconnect power before removing probes whenever possible.\nUse insulated gloves.\nAvoid wet environments.\nFollow lock-out/tag-out procedures.\nStore in a dry location.\nRecharge battery using approved charger only.\nFollow manufacturer's operating manual.",
+      "userManualUrl": "",
+      "youtubeUrl": "https://youtu.be/QaBlpZpG8Is?si=_5I0AVCIMpQPdd5h",
+      "calibrationCycleDays": 365
     },
     {
       "id": "Hgom_Xs6",
@@ -52,7 +85,22 @@
       "model": "Hioki PQ3100",
       "serial": "PQH03",
       "lastCalibrationDate": "2026-06-24T08:45:46.837Z",
-      "nextCalibrationDate": "2027-06-24T08:45:46.837Z"
+      "nextCalibrationDate": "2027-06-24T08:45:46.837Z",
+      "productImages": [
+        "https://www.hioki.com/system/files/image/2021-06/PQ3100EN_1_.png"
+      ],
+      "productOverview": "The Hioki PQ3100 Power Quality Analyzer is a compact, portable three-phase power quality analyzer designed for continuous monitoring, troubleshooting, and analysis of electrical power systems. It complies with IEC 61000-4-30 Class A standards and accurately records voltage, current, power, harmonics, flicker, transients, and power quality events. The instrument supports long-term data logging and waveform recording, making it ideal for industrial plants, commercial buildings, utility networks, and energy audit applications. Its rugged construction and intuitive interface enable engineers to perform reliable measurements in demanding field environments.",
+      "specifications": "Parameter\t       Specification\nInstrument Type\t        Three-Phase Power Quality Analyzer\nVoltage Channels\t4\nCurrent Channels\t4\nFrequency\t        50/60 Hz\nDisplay\t                6.5-inch Color LCD\nData Storage\t        SD Memory Card\nCommunication\t        USB, LAN\nBattery          \tRechargeable Battery Pack\nSafety Rating\t        CAT IV 600 V / CAT III 1000 V\nCompliance\t        IEC 61000-4-30 Class A\nOperating Temperature\t-10°C to +50°C\nProtection Class\tIP40",
+      "parametersMeasured": "Phase Voltage,\nLine Voltage,\nPhase Current,\nNeutral Current,\nFrequency,\nActive Power (kW),\nReactive Power (kVAR),\nApparent Power (kVA),\nPower Factor,\nEnergy Consumption (kWh),\nDemand,\nVoltage Harmonics,\nCurrent Harmonics,\nTotal Harmonic Distortion (THD),\nVoltage Unbalance,\nCurrent Unbalance,\nVoltage Sag,\nVoltage Swell,\nInterruptions,\nFlicker,\nTransients,\nInrush Current.",
+      "accuracy": "Voltage\t±0.1% of reading , Current\t±0.2% of reading (Probe dependent),  Frequency\t±0.01 Hz , Active Power\t±0.3% of reading , Energy\t±0.3% of reading , Harmonics \tIEC Class A Compliance.",
+      "measurementRange": "Voltage\t0.1 V to 1000 V AC, Current\tDepends on Current Sensor (typically 0.5 A to 6000 A),  Frequency\t40–70 Hz,  Power\tUp to system capacity , Harmonics\tUp to 50th Order ,THD\t0–100%.",
+      "resolution": "Voltage\t0.01 V ,Current\t0.01 A ,Frequency\t0.01 Hz ,Power\t0.01 kW ,Energy\t0.001 kWh ,Harmonics\t0.1%.",
+      "applications": "Industrial Energy Audits\nPower Quality Monitoring\nElectrical Distribution System Analysis\nTransformer Load Analysis\nMotor Performance Monitoring\nHarmonic Analysis\nUtility Network Monitoring\nRenewable Energy System Evaluation\nPreventive Maintenance\nElectrical Troubleshooting\nCompliance Testing\nLong-Term Power Monitoring",
+      "operatingProcedure": "Inspect the analyzer, voltage leads, and current sensors for any damage.\nVerify that the instrument is within its calibration period.\nConnect the voltage leads to the three phases and neutral.\nConnect the current sensors to each phase with the arrow pointing toward the load.\nSwitch ON the analyzer.\nSelect the appropriate wiring configuration.\nVerify phase sequence and correct sensor orientation.\nConfigure the recording interval and monitoring duration.\nStart the measurement.\nObserve real-time electrical parameters and waveform displays.\nRecord power quality events during the monitoring period.\nSave the measurement data to the SD memory card.\nTransfer the recorded data to a computer using Hioki analysis software.\nDisconnect all probes safely after completing the measurement.\nStore the analyzer in its protective carrying case.",
+      "calibrationProcedure": "Clean the analyzer and inspect all connectors and accessories.\nVerify the condition of voltage leads and current sensors.\nConnect the analyzer to a certified voltage and current calibration source.\nApply known AC voltage values and verify readings.\nApply calibrated AC current values and verify measurements.\nCheck frequency accuracy using a reference frequency source.\nVerify power and energy calculations.\nTest harmonic measurement accuracy.\nPerform functional verification of event recording and waveform capture.\nAdjust calibration settings if necessary using authorized calibration software.\nGenerate a calibration certificate after successful verification.\nAttach a calibration label showing the calibration date and due date.\nRecord the calibration details in the calibration log.",
+      "safetyInstructions": "Read the operating manual before using the instrument.\nOnly qualified personnel should operate the analyzer.\nWear appropriate Personal Protective Equipment (PPE).\nVerify that the analyzer's CAT IV 600 V / CAT III 1000 V rating is suitable for the measurement.\nInspect all voltage leads and current sensors before use.\nNever use damaged cables or accessories.\nEnsure correct phase identification before making connections.\nDo not exceed the instrument's maximum voltage or current ratings.\nAvoid touching exposed live conductors during measurements.\nFollow Lockout/Tagout (LOTO) procedures whenever possible.\nKeep the analyzer away from moisture and corrosive environments.\nUse only approved accessories and replacement parts.\nRecharge the battery using the recommended charger.\nStore the instrument in a clean, dry, and dust-free location.\nCalibrate the instrument annually to maintain measurement accuracy.",
+      "userManualUrl": "",
+      "youtubeUrl": "https://youtu.be/LuxxeuaJtZg?si=NjuF5rPcaFzwIpTM"
     },
     {
       "id": "Cq1qyvHO",
@@ -64,31 +112,76 @@
       "model": "Krykard ALM36",
       "serial": "PQK04",
       "lastCalibrationDate": "2026-05-25T05:31:03.500Z",
-      "nextCalibrationDate": "2026-09-25T05:31:03.500Z"
+      "nextCalibrationDate": "2026-09-25T05:31:03.500Z",
+      "productImages": [
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZWoZGomQihgncSt42zzd1aftlZcRT1gIrMWzg36Ujlw&s=10"
+      ],
+      "productOverview": "The Krykard ALM36 Power Quality Analyzer is a portable three-phase electrical measurement instrument designed for power quality analysis, energy auditing, preventive maintenance, and troubleshooting of electrical distribution systems. It measures and records voltage, current, power, energy, harmonics, frequency, power factor, and power quality disturbances such as voltage sags, swells, interruptions, and transients. The analyzer provides real-time monitoring, waveform capture, and long-term data logging, enabling engineers to identify electrical problems, improve energy efficiency, and maintain system reliability. Its rugged construction, user-friendly interface, and comprehensive measurement capabilities make it suitable for industrial, commercial, and utility applications.",
+      "specifications": "Parameter\tSpecification\nInstrument Type\tThree-Phase Power Quality Analyzer\nVoltage Channels\t4\nCurrent Channels\t4\nFrequency\t50/60 Hz\nDisplay\t7-inch Color TFT LCD\nData Storage\tInternal Memory and USB Storage\nCommunication\tUSB, Ethernet\nBattery\tRechargeable Lithium-ion Battery\nSafety Rating\tCAT IV 600 V / CAT III 1000 V\nCompliance\tIEC 61000-4-30 Class S\nOperating Temperature\t-10°C to +50°C\nStorage Temperature\t-20°C to +60°C\nProtection Class\tIP40",
+      "parametersMeasured": "Phase Voltage\nLine Voltage\nNeutral Voltage\nPhase Current\nNeutral Current\nFrequency\nActive Power (kW)\nReactive Power (kVAR)\nApparent Power (kVA)\nPower Factor\nDisplacement Power Factor\nActive Energy (kWh)\nReactive Energy (kVARh)\nApparent Energy (kVAh)\nDemand\nVoltage Harmonics\nCurrent Harmonics\nTotal Harmonic Distortion (THD)\nVoltage Unbalance\nCurrent Unbalance\nVoltage Sag\nVoltage Swell\nVoltage Interruptions\nFlicker\nTransients\nInrush Current\nCrest Factor",
+      "accuracy": "Measurement\tAccuracy Voltage\t±0.2% of reading Current\t±0.5% of reading (Sensor dependent) Frequency\t±0.01 Hz Active Power\t±0.5% of reading Reactive Power\t±0.5% of reading Energy\t±0.5% of reading Power Factor\t±0.01 Harmonics\t±2% of reading",
+      "measurementRange": "Parameter\tRange AC Voltage\t10 V to 1000 V AC AC Current\tDepends on Current Clamp (Typically 1 A to 5000 A) Frequency\t40 Hz to 70 Hz Active Power\tUp to System Capacity Reactive Power\tUp to System Capacity Apparent Power\tUp to System Capacity Power Factor\t-1.000 to +1.000 Harmonics\tUp to 50th Order THD\t0% to 100% Energy\tUnlimited Data Logging",
+      "resolution": "Parameter\tResolution Voltage\t0.01 V Current\t0.01 A Frequency\t0.01 Hz Active Power\t0.01 kW Reactive Power\t0.01 kVAR Apparent Power\t0.01 kVA Energy\t0.001 kWh Power Factor\t0.001 Harmonics\t0.1% THD\t0.1%",
+      "applications": "Industrial Energy Audits\nElectrical Power Quality Assessment\nDistribution Panel Monitoring\nTransformer Performance Analysis\nMotor Load Analysis\nHarmonic Investigation\nUtility Power Distribution Monitoring\nPreventive Maintenance Programs\nRenewable Energy System Evaluation\nCommercial Building Energy Monitoring\nManufacturing Plant Electrical Diagnostics\nData Logging for Long-Term Power Analysis\nElectrical Commissioning\nPower System Troubleshooting\nCompliance Verification",
+      "operatingProcedure": "Inspect the analyzer, voltage leads, and current clamps for any physical damage.\nEnsure the instrument has a valid calibration certificate.\nCharge the battery or connect external power if required.\nConnect the voltage leads to the appropriate phases (L1, L2, L3, and Neutral).\nAttach the current clamps to each phase conductor, ensuring the arrows point toward the load.\nSwitch ON the analyzer.\nSelect the appropriate wiring configuration (Single Phase, Three Phase 3-Wire, or Three Phase 4-Wire).\nVerify the phase sequence and current clamp orientation.\nConfigure the recording interval, event thresholds, and monitoring duration.\nStart the measurement and verify real-time readings.\nMonitor voltage, current, power, harmonics, and power quality events.\nSave the recorded data in the internal memory or USB storage.\nTransfer the measurement data to a computer using the analysis software.\nDisconnect the current clamps and voltage leads after completing the measurements.\nClean the instrument and store it safely in its protective carrying case.",
+      "calibrationProcedure": "Visually inspect the analyzer and all accessories.\nClean the instrument using a dry, lint-free cloth.\nConnect the analyzer to a certified calibration source.\nApply known AC voltage values and verify measurement accuracy.\nApply reference AC current values using calibrated current sources.\nVerify frequency measurement using a traceable frequency standard.\nCheck active, reactive, and apparent power calculations.\nVerify energy measurement accuracy.\nTest harmonic and THD measurement performance.\nPerform functional testing for event recording and waveform capture.\nAdjust calibration values if required using manufacturer-approved software.\nGenerate and issue a calibration certificate.\nAttach a calibration label indicating the calibration and due dates.\nRecord all calibration results in the instrument maintenance log.\n\nRecommended Calibration Interval: Every 12 months.",
+      "safetyInstructions": "Read and understand the operating manual before using the analyzer.\nOnly qualified personnel should perform measurements.\nWear appropriate Personal Protective Equipment (PPE), including insulated gloves and safety glasses.\nVerify that the instrument's CAT IV 600 V / CAT III 1000 V safety rating is suitable for the application.\nInspect voltage leads and current clamps before every use.\nDo not use damaged or worn accessories.\nEnsure proper phase identification before connecting the analyzer.\nNever exceed the maximum rated voltage or current.\nAvoid touching exposed live conductors while measurements are in progress.\nFollow Lockout/Tagout (LOTO) procedures whenever possible.\nKeep the analyzer away from water, excessive humidity, and explosive atmospheres.\nUse only manufacturer-approved accessories and replacement parts.\nRecharge the battery only with the recommended charger.\nStore the analyzer in a clean, dry, and dust-free environment.\nPerform annual calibration to maintain measurement accuracy and reliability.",
+      "userManualUrl": "",
+      "youtubeUrl": "https://youtu.be/db9VYmm_DhI?si=uvxJltM2kkR5keRw"
     },
     {
       "id": "ymiNjydl",
-      "status": "available",
-      "location": "warehouse",
+      "status": "booked",
+      "location": "with_user",
       "category": "Power Logger",
       "name": "Power Logger",
       "brand": "Hioki",
       "model": "Hioki PW3360-20",
       "serial": "PWH05",
       "lastCalibrationDate": "2026-05-25T05:31:03.500Z",
-      "nextCalibrationDate": "2026-09-26T05:31:03.500Z"
+      "nextCalibrationDate": "2026-09-26T05:31:03.500Z",
+      "productImages": [
+        "https://www.hioki.com/system/files/image/2021-06/PW3360-20E_1.png"
+      ],
+      "productOverview": "The Hioki PW3360-20 Power Logger is a compact, portable single-phase to three-phase power logger designed for energy monitoring, electrical load studies, and energy audits. It measures and records voltage, current, power, power factor, frequency, and energy consumption over extended periods without interrupting normal system operation. The instrument is ideal for identifying energy-saving opportunities, monitoring electrical equipment performance, and evaluating load profiles in industrial, commercial, and institutional facilities.\n\nThe PW3360-20 features non-contact current measurement using clamp sensors, long-term data logging to an SD memory card, USB communication, and battery operation for convenient field use. It is widely used by energy auditors, maintenance engineers, and electrical consultants.",
+      "specifications": "Parameter\t         Specification\nInstrument Type\t         Portable Power Logger\nMeasurement System\t Single-phase / Three-phase\nVoltage Channels\t 3\nCurrent Channels\t 3\nFrequency\t         50/60 Hz\nDisplay\t                 Backlit LCD\nData Storage\t         SD Memory Card\nCommunication\t         USB 2.0\nPower Supply\t         AC Adapter / AA Batteries\nSafety Rating\t         CAT III 600 V\nOperating Temperature\t-10°C to +50°C\nStorage Temperature\t-20°C to +60°C\nProtection Class\tIP50",
+      "parametersMeasured": "Phase Voltage,\nLine Voltage,\nPhase Current,\nFrequency,\nActive Power (kW),\nReactive Power (kVAR),\nApparent Power (kVA),\nPower Factor,\nPhase Angle,\nActive Energy (kWh),\nReactive Energy (kVARh),\nApparent Energy (kVAh),\nMaximum Demand,\nAverage Demand,\nPeak Power,\nCurrent Demand,\nVoltage Demand,\nLoad Profile,\nPower Consumption Trend.",
+      "accuracy": "Voltage\t±0.3% of reading,  Current\t±0.3% of reading (Sensor dependent),  Frequency\t±0.02 Hz,  Active Power\t±0.5% of reading , Reactive Power\t±0.5% of reading , Apparent Power\t±0.5% of reading , Energy\t±0.5% of reading , Power Factor\t±0.02.",
+      "measurementRange": "AC Voltage\t90 V to 520 V AC , AC Current\tDepends on Current Sensor (Typically 0.5 A to 5000 A) , Frequency\t45 Hz to 66 Hz , Active Power\tUp to System Capacity , Reactive Power\tUp to System Capacity ,  Apparent Power\tUp to System Capacity  , Power Factor\t-1.000 to +1.000,  Energy\tUnlimited Data Logging , Demand\t-Configurable.",
+      "resolution": "Voltage\t0.1 V , Current\t0.01 A,  Frequency\t0.01 Hz , Active Power\t0.01 kW , Reactive Power\t0.01 kVAR,  Apparent Power\t0.01 kVA , Energy\t0.001 kWh , Power Factor\t0.001 , Demand\t0.01 kW.",
+      "applications": "Industrial Energy Audits\nElectrical Load Surveys\nBuilding Energy Monitoring\nTransformer Load Analysis\nMotor Energy Consumption Monitoring\nHVAC Energy Analysis\nManufacturing Plant Energy Management\nCommercial Building Power Monitoring\nPreventive Maintenance\nElectrical Distribution Studies\nDemand Analysis\nEnergy Conservation Projects\nUtility Billing Verification\nLong-Term Power Logging\nElectrical Performance Evaluation",
+      "operatingProcedure": "Inspect the power logger, voltage leads, and current sensors for any physical damage.\nVerify that the instrument is within its calibration period.\nInsert the SD memory card into the instrument.\nInstall fully charged batteries or connect the AC adapter.\nConnect the voltage leads to the appropriate measurement points.\nAttach the current clamps to the corresponding phase conductors with the arrow pointing toward the load.\nSwitch ON the power logger.\nSelect the appropriate wiring configuration.\nConfigure the logging interval and recording duration.\nVerify that voltage, current, and phase sequence are correct.\nStart data logging.\nAllow the logger to record data for the required monitoring period.\nStop the recording after completion.\nSave the measurement data.\nTransfer the recorded data to a computer using the Hioki analysis software.\nDisconnect all leads and current sensors safely.\nStore the instrument in its protective carrying case.",
+      "calibrationProcedure": "Clean the instrument and inspect all accessories.\nVerify the condition of voltage leads and current sensors.\nConnect the power logger to a certified voltage calibration source.\nApply known AC voltage values and verify readings.\nApply calibrated current values using a traceable current source.\nVerify frequency measurement using a precision frequency generator.\nCheck active, reactive, and apparent power calculations.\nVerify power factor accuracy.\nTest energy accumulation using a reference energy standard.\nPerform functional verification of the data logging system.\nAdjust calibration if required according to manufacturer procedures.\nGenerate a calibration certificate.\nAffix a calibration label indicating the calibration and due dates.\nRecord the calibration information in the maintenance log.\n\nRecommended Calibration Interval: Every 12 months.",
+      "safetyInstructions": "Read the operating manual before using the instrument.\nOnly qualified personnel should perform electrical measurements.\nWear appropriate Personal Protective Equipment (PPE).\nVerify that the instrument's CAT III 600 V safety rating is suitable for the application.\nInspect voltage leads and current clamps before every measurement.\nReplace damaged accessories immediately.\nEnsure proper phase identification before connecting the logger.\nNever exceed the maximum rated voltage or current.\nAvoid touching exposed live conductors during measurements.\nSecure the logger in a safe location during long-term monitoring.\nFollow Lockout/Tagout (LOTO) procedures whenever possible.\nKeep the instrument away from water, excessive humidity, and corrosive environments.\nUse only manufacturer-approved accessories and replacement parts.\nRemove the batteries if the instrument will not be used for an extended period.\nPerform annual calibration to ensure continued measurement accuracy.",
+      "userManualUrl": "",
+      "youtubeUrl": "https://youtu.be/BaBdf2Ogo_Q?si=xX2gci2cvC0IY3h5"
     },
     {
       "id": "hu41OzMM",
-      "status": "booked",
-      "location": "with_user",
+      "status": "available",
+      "location": "warehouse",
       "category": "Clamp Meter",
       "name": "Clamp Meter",
       "brand": "Hioki",
       "model": "Hioki CM3286-50",
       "serial": "PCH06",
       "lastCalibrationDate": "2026-05-25T05:31:03.500Z",
-      "nextCalibrationDate": "2026-09-27T05:31:03.500Z"
+      "nextCalibrationDate": "2026-09-27T05:31:03.500Z",
+      "productImages": [
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIyfmJgNbQcbjDJ4gPrThv8IBN0VC2p_QGJxzydNnnDg&s=10"
+      ],
+      "productOverview": "The Hioki CM3286-50 Clamp Meter is a compact, lightweight, and high-performance digital clamp meter designed for measuring AC current without interrupting electrical circuits. In addition to current measurement, it measures AC/DC voltage, resistance, continuity, and frequency, making it a versatile instrument for electrical maintenance, energy audits, industrial troubleshooting, and equipment inspection.\n\nThe CM3286-50 features a large jaw opening, True RMS measurement, auto-ranging, data hold, and overload protection. Its slim design allows measurements in confined electrical panels and distribution boards. The instrument complies with international safety standards and is widely used by electrical engineers, maintenance technicians, and energy auditors.",
+      "specifications": "Parameter\t        Specification\nInstrument Type\t        Digital Clamp Meter\nBrand\t                Hioki\nModel\t                CM3286-50\nSerial Number\t        PCH06\nMeasurement Method\tTrue RMS\nDisplay\t                4-digit LCD\nJaw Opening\t        33 mm\nAuto Range\t        Yes\nData Hold\t        Yes\nContinuity Buzzer\tYes\nPower Supply\t        CR2032 Lithium Battery\nSafety Rating\t        CAT IV 300 V / CAT III 600 V\nOperating Temperature\t-25°C to +65°C\nStorage Temperature\t-30°C to +70°C",
+      "parametersMeasured": "AC Current (True RMS),\nAC Voltage,\nDC Voltage,\nResistance,\nFrequency,\nContinuity,\nDiode Test,\nOverload Indication,\nData Hold Function,\nAuto Power-Off Status.",
+      "accuracy": "AC Current\t±1.5% of reading ±5digits,  AC Voltage\t±1.0% of reading ±3 digits,  DC Voltage \t±1.0% of reading ±3 digits, Resistance\t±1.0% of reading ±5 digits,  Frequency\t±0.1% of reading , Continuity-\tAudible indication below specified resistance.",
+      "measurementRange": "AC Current\t0.00 A to 1000 A , AC Voltage\t0 V to 600 V , DC Voltage\t0 V to 600 V , Resistance\t0 Ω to 42 MΩ , Frequency\t5 Hz to 500 Hz , Continuity\t-Up to approximately 50 Ω.",
+      "resolution": " AC Current\t0.01 A,  AC Voltage\t0.1 V,  DC Voltage\t0.1 V,  Resistance\t0.1 Ω,  Frequency\t0.1 Hz,  Continuity\t0.1 Ω.",
+      "applications": "Industrial Electrical Maintenance\nEnergy Audit Measurements\nMotor Current Monitoring\nDistribution Panel Inspection\nElectrical Troubleshooting\nTransformer Load Measurement\nHVAC Equipment Maintenance\nBuilding Electrical Inspection\nPreventive Maintenance Programs\nElectrical Safety Inspections\nPower Distribution System Monitoring\nLaboratory Testing\nEquipment Commissioning\nEducational and Training Applications\nField Service Engineering",
+      "operatingProcedure": "Inspect the clamp meter and test leads for any visible damage.\nVerify that the battery has sufficient charge.\nEnsure the instrument has a valid calibration label.\nTurn the rotary switch to the desired measurement function.\nFor current measurement, open the clamp jaw using the trigger.\nClamp around only one conductor; never clamp around both phase and neutral simultaneously.\nEnsure the conductor is centered within the jaw for accurate measurement.\nRead the measured value on the display.\nFor voltage measurement, connect the test leads to the appropriate terminals and measure across the circuit.\nFor resistance or continuity measurements, ensure the circuit is de-energized before testing.\nUse the Data Hold function if required to freeze the displayed reading.\nAfter completing the measurement, remove the clamp or test leads safely.\nTurn OFF the instrument to conserve battery life.\nStore the clamp meter in its protective carrying case.",
+      "calibrationProcedure": "Clean the instrument and inspect the clamp jaw and test leads.\nVerify that the battery voltage is within the acceptable range.\nConnect the clamp meter to a certified calibration system.\nApply known AC current values using a current calibrator.\nVerify AC current readings across the measurement range.\nApply calibrated AC and DC voltages using a voltage calibrator.\nVerify voltage measurement accuracy.\nConnect certified resistance standards to verify resistance measurement.\nTest the continuity function using a calibrated resistance source.\nVerify frequency measurement using a precision signal generator.\nPerform functional checks for display, data hold, and auto power-off features.\nAdjust calibration if required according to the manufacturer's service procedure.\nIssue a calibration certificate.\nAffix a calibration label indicating the calibration and next due dates.\nRecord calibration details in the maintenance log.\n\nRecommended Calibration Interval: Every 12 months.",
+      "safetyInstructions": "Read the operating manual before using the clamp meter.\nOnly qualified personnel should perform electrical measurements.\nWear appropriate Personal Protective Equipment (PPE), including insulated gloves and safety glasses.\nVerify that the instrument's CAT IV 300 V / CAT III 600 V safety rating is suitable for the application.\nInspect the clamp jaw, test leads, and housing before each use.\nNever use the instrument if any damage is observed.\nClamp around only one conductor during current measurements.\nDo not exceed the maximum rated voltage or current.\nNever measure resistance or continuity on a live circuit.\nKeep fingers behind the protective finger guards while using the test leads.\nAvoid using the instrument in wet, damp, or explosive environments.\nReplace the battery only with the specified type.\nClean the instrument with a soft, dry cloth; do not use solvents.\nStore the clamp meter in a clean, dry, and dust-free environment.\nPerform annual calibration to maintain measurement accuracy and reliability.",
+      "userManualUrl": "",
+      "youtubeUrl": "https://youtu.be/emEJ3i4nYf4?si=Y7wOTobVbcWvX1i_"
     },
     {
       "id": "6-vm-eZU",
@@ -100,7 +193,22 @@
       "model": "Krykard F409",
       "serial": "PCK07",
       "lastCalibrationDate": "2026-05-25T05:31:03.500Z",
-      "nextCalibrationDate": "2026-09-28T05:31:03.500Z"
+      "nextCalibrationDate": "2026-09-28T05:31:03.500Z",
+      "productImages": [
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIyfmJgNbQcbjDJ4gPrThv8IBN0VC2p_QGJxzydNnnDg&s=10"
+      ],
+      "productOverview": "The Krykard F409 Clamp Meter is a professional True RMS digital clamp meter designed for measuring AC/DC current, AC/DC voltage, resistance, continuity, frequency, capacitance, and other electrical parameters. It is suitable for industrial maintenance, electrical installations, preventive maintenance, energy audits, and troubleshooting of electrical equipment. The clamp meter enables non-contact current measurement without disconnecting conductors, ensuring safe and efficient operation.\n\nThe instrument features a large backlit LCD display, auto-ranging, data hold, minimum/maximum recording, inrush current measurement, and overload protection. Its ergonomic design and robust construction make it ideal for use in industrial environments, electrical panels, motors, transformers, generators, and distribution systems.",
+      "specifications": "Parameter\t            Specification\nInstrument Type        \t    Digital True RMS Clamp Meter\nMeasurement Method\t    True RMS\nDisplay\t                    6000-count Backlit LCD\nJaw Opening\t            42 mm\nAuto Range\t            Yes\nData Hold\t            Yes\nMin/Max Recording\t    Yes\nInrush Current Measurement\tYes\nContinuity Buzzer\t    Yes\nPower Supply\t            9 V Battery\nSafety Rating\t            CAT IV 600 V / CAT III 1000 V\nOperating Temperature\t   -10°C to +50°C\nStorage Temperature\t   -20°C to +60°C",
+      "parametersMeasured": "AC Current (True RMS), \nDC Current, \nAC Voltage, \nDC Voltage, \nResistance, \nFrequency, \nCapacitance, \nDuty Cycle, \nContinuity, \nDiode Test, \nInrush Current, \nMinimum Value, \nMaximum Value, \nRelative Measurement, \nData Hold, \nAuto Power-Off.",
+      "accuracy": " AC Current\t±1.5% of reading ±5 digits,  DC Current\t±1.5% of reading ±5 digits,  AC Voltage\t±1.0% of reading ±3 digits,  DC Voltage\t±0.8% of reading ±2 digits , Resistance\t±1.0% of reading ±3 digits , Frequency\t±0.5% of reading , Capacitance\t±2.5% of reading,  Continuity-\tAudible indication below specified resistance.",
+      "measurementRange": "AC Current\t0 A to 1000 A , DC Current\t0 A to 1000 A , AC Voltage\t0 V to 1000 V,  DC Voltage\t0 V to 1000 V , Resistance\t0 Ω to 60 MΩ , Frequency\t10 Hz to 10 kHz , Capacitance\t1 nF to 100 mF , Duty Cycle\t0% to 99.9% , Continuity\t-Up to approximately 50 Ω.",
+      "resolution": " AC Current\t0.01 A,  DC Current\t0.01 A , AC Voltage\t0.1 V,  DC Voltage\t0.1 V , Resistance\t0.1 Ω , Frequency\t0.1 Hz , Capacitance\t1 nF,  Duty Cycle\t0.1%.",
+      "applications": "Industrial Electrical Maintenance\nEnergy Audit Measurements\nElectrical Troubleshooting\nMotor Current Analysis\nTransformer Load Monitoring\nGenerator Testing\nElectrical Panel Inspection\nPreventive Maintenance\nBuilding Electrical Services\nHVAC System Maintenance\nSolar PV System Inspection\nUPS and Battery System Testing\nManufacturing Plant Maintenance\nElectrical Installation Verification\nLaboratory and Educational Applications",
+      "operatingProcedure": "Inspect the clamp meter, clamp jaw, and test leads for any signs of damage.\nVerify that the battery is fully charged and the calibration is valid.\nTurn the rotary selector switch to the desired measurement function.\nFor current measurements, press the trigger to open the clamp jaw.\nClamp around only one conductor and ensure it is centered within the jaw.\nRead the displayed current value.\nFor voltage measurements, connect the red and black test leads to the appropriate terminals and measure across the circuit.\nEnsure the circuit is de-energized before measuring resistance, continuity, or capacitance.\nUse the Data Hold function to freeze readings if required.\nUse the Min/Max function to capture fluctuating values.\nRecord the measurement results.\nDisconnect the test leads or remove the clamp from the conductor after measurements.\nTurn OFF the instrument to conserve battery power.\nClean the instrument and return it to its protective carrying case.",
+      "calibrationProcedure": "Clean the instrument and inspect the clamp jaw and test leads.\nCheck the battery condition and replace it if necessary.\nConnect the clamp meter to a certified electrical calibrator.\nApply known AC and DC current values using a calibrated current source.\nVerify current measurement accuracy over the full measurement range.\nApply known AC and DC voltage values using a traceable voltage calibrator.\nVerify voltage measurement accuracy.\nConnect precision resistance standards to verify resistance measurement.\nVerify frequency measurement using a calibrated signal generator.\nTest capacitance measurement using certified capacitor standards.\nVerify continuity and diode test functions.\nPerform functional verification of the display, data hold, and Min/Max features.\nAdjust calibration if required according to the manufacturer's procedures.\nGenerate a calibration certificate.\nAffix a calibration label indicating the calibration and due dates.\nRecord all calibration information in the maintenance log.\n\nRecommended Calibration Interval: Every 12 months.",
+      "safetyInstructions": "Read the operating manual before using the clamp meter.\nOnly trained and qualified personnel should operate the instrument.\nWear appropriate Personal Protective Equipment (PPE), including insulated gloves and eye protection.\nVerify that the instrument's CAT IV 600 V / CAT III 1000 V safety rating is suitable for the application.\nInspect the clamp jaw, housing, and test leads before every use.\nDo not use the instrument if it is damaged or malfunctioning.\nClamp around only one conductor during current measurements.\nNever exceed the specified voltage or current limits.\nEnsure the circuit is de-energized before measuring resistance, continuity, capacitance, or diode functions.\nKeep fingers behind the protective finger guards while using the test leads.\nAvoid operating the instrument in wet, humid, or explosive environments.\nReplace the battery only with the recommended type.\nClean the instrument using a soft, dry cloth; avoid the use of solvents.\nStore the clamp meter in a clean, dry, and dust-free environment.\nPerform annual calibration to ensure measurement accuracy and compliance with quality standards.",
+      "userManualUrl": "",
+      "youtubeUrl": "https://youtu.be/3INLQ8u6ZFE?si=XW21MQw0RONYWgwF"
     },
     {
       "id": "LnMSNlgk",
@@ -112,7 +220,22 @@
       "model": "Hioki CM3286-50",
       "serial": "PCH08",
       "lastCalibrationDate": "2026-05-25T05:31:03.500Z",
-      "nextCalibrationDate": "2026-09-29T05:31:03.500Z"
+      "nextCalibrationDate": "2026-09-29T05:31:03.500Z",
+      "productImages": [
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIyfmJgNbQcbjDJ4gPrThv8IBN0VC2p_QGJxzydNnnDg&s=10"
+      ],
+      "productOverview": "The Hioki CM3286-50 Clamp Meter is a compact, lightweight, and high-performance digital clamp meter designed for measuring AC current without interrupting electrical circuits. In addition to current measurement, it measures AC/DC voltage, resistance, continuity, and frequency, making it a versatile instrument for electrical maintenance, energy audits, industrial troubleshooting, and equipment inspection.\n\nThe CM3286-50 features a large jaw opening, True RMS measurement, auto-ranging, data hold, and overload protection. Its slim design allows measurements in confined electrical panels and distribution boards. The instrument complies with international safety standards and is widely used by electrical engineers, maintenance technicians, and energy auditors.",
+      "specifications": "Parameter\t          Specification\nInstrument Type\t          Digital Clamp Meter\nMeasurement Method\t  True RMS\nDisplay\t                  4-digit LCD\nJaw Opening            \t  33 mm\nAuto Range\t          Yes\nData Hold\t          Yes\nContinuity Buzzer\t  Yes\nPower Supply\t          CR2032 Lithium Battery\nSafety Rating\t          CAT IV 300 V / CAT III 600 V\nOperating Temperature\t  -25°C to +65°C\nStorage Temperature\t  -30°C to +70°C",
+      "parametersMeasured": "AC Current (True RMS),\nAC Voltage,\nDC Voltage,\nResistance, \nFrequency,\nContinuity, \nDiode Test, \nOverload Indication, \nData Hold Function, \nAuto Power-Off Status.",
+      "accuracy": "AC Current\t±1.5% of reading ±5 digits , AC Voltage\t±1.0% of reading ±3 digits,  DC Voltage\t±1.0% of reading ±3 digits , Resistance\t±1.0% of reading ±5 digits , Frequency\t±0.1% of reading , Continuity\t-Audible indication below specified resistance",
+      "measurementRange": "AC Current\t0.00 A to 1000 A,  AC Voltage\t0 V to 600 V,  DC Voltage\t0 V to 600 V,  Resistance\t0 Ω to 42 MΩ , Frequency\t5 Hz to 500 Hz , Continuity\tUp to approximately 50 Ω.",
+      "resolution": "AC Current\t0.01 A , AC Voltage\t0.1 V,  DC Voltage\t0.1 V,  Resistance\t0.1 Ω , Frequency\t0.1 Hz , Continuity\t0.1 Ω.",
+      "applications": "Industrial Electrical Maintenance\nEnergy Audit Measurements\nMotor Current Monitoring\nDistribution Panel Inspection\nElectrical Troubleshooting\nTransformer Load Measurement\nHVAC Equipment Maintenance\nBuilding Electrical Inspection\nPreventive Maintenance Programs\nElectrical Safety Inspections\nPower Distribution System Monitoring\nLaboratory Testing\nEquipment Commissioning\nEducational and Training Applications\nField Service Engineering",
+      "operatingProcedure": "Inspect the clamp meter and test leads for any visible damage.\nVerify that the battery has sufficient charge.\nEnsure the instrument has a valid calibration label.\nTurn the rotary switch to the desired measurement function.\nFor current measurement, open the clamp jaw using the trigger.\nClamp around only one conductor; never clamp around both phase and neutral simultaneously.\nEnsure the conductor is centered within the jaw for accurate measurement.\nRead the measured value on the display.\nFor voltage measurement, connect the test leads to the appropriate terminals and measure across the circuit.\nFor resistance or continuity measurements, ensure the circuit is de-energized before testing.\nUse the Data Hold function if required to freeze the displayed reading.\nAfter completing the measurement, remove the clamp or test leads safely.\nTurn OFF the instrument to conserve battery life.\nStore the clamp meter in its protective carrying case.",
+      "calibrationProcedure": "Clean the instrument and inspect the clamp jaw and test leads.\nVerify that the battery voltage is within the acceptable range.\nConnect the clamp meter to a certified calibration system.\nApply known AC current values using a current calibrator.\nVerify AC current readings across the measurement range.\nApply calibrated AC and DC voltages using a voltage calibrator.\nVerify voltage measurement accuracy.\nConnect certified resistance standards to verify resistance measurement.\nTest the continuity function using a calibrated resistance source.\nVerify frequency measurement using a precision signal generator.\nPerform functional checks for display, data hold, and auto power-off features.\nAdjust calibration if required according to the manufacturer's service procedure.\nIssue a calibration certificate.\nAffix a calibration label indicating the calibration and next due dates.\nRecord calibration details in the maintenance log.\n\nRecommended Calibration Interval: Every 12 months.",
+      "safetyInstructions": "Read the operating manual before using the clamp meter.\nOnly qualified personnel should perform electrical measurements.\nWear appropriate Personal Protective Equipment (PPE), including insulated gloves and safety glasses.\nVerify that the instrument's CAT IV 300 V / CAT III 600 V safety rating is suitable for the application.\nInspect the clamp jaw, test leads, and housing before each use.\nNever use the instrument if any damage is observed.\nClamp around only one conductor during current measurements.\nDo not exceed the maximum rated voltage or current.\nNever measure resistance or continuity on a live circuit.\nKeep fingers behind the protective finger guards while using the test leads.\nAvoid using the instrument in wet, damp, or explosive environments.\nReplace the battery only with the specified type.\nClean the instrument with a soft, dry cloth; do not use solvents.\nStore the clamp meter in a clean, dry, and dust-free environment.\nPerform annual calibration to maintain measurement accuracy and reliability.",
+      "userManualUrl": "",
+      "youtubeUrl": "https://youtu.be/emEJ3i4nYf4?si=Y7wOTobVbcWvX1i_"
     },
     {
       "id": "PeoP47wl",
@@ -124,7 +247,22 @@
       "model": "Krykard F409",
       "serial": "PCK09",
       "lastCalibrationDate": "2026-05-25T05:31:03.500Z",
-      "nextCalibrationDate": "2026-09-30T05:31:03.500Z"
+      "nextCalibrationDate": "2026-09-30T05:31:03.500Z",
+      "productImages": [
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPhZWZZWrZESwTka13NXm6OWqfxpIh6TongCshAy6PZw&s=10"
+      ],
+      "productOverview": "The Krykard F409 Clamp Meter is a professional True RMS digital clamp meter designed for accurate measurement of AC/DC current, AC/DC voltage, resistance, frequency, capacitance, continuity, and other essential electrical parameters. It enables non-contact current measurement, allowing electricians and engineers to measure current safely without disconnecting the electrical circuit. The instrument is suitable for industrial maintenance, energy audits, electrical installations, preventive maintenance, and troubleshooting of motors, transformers, generators, HVAC systems, and power distribution panels.\n\nThe clamp meter features a large backlit LCD display, automatic ranging, minimum/maximum recording, inrush current measurement, data hold, overload protection, and a rugged ergonomic design. Its high accuracy and reliability make it an excellent choice for field engineers and maintenance professionals.",
+      "specifications": "Parameter\t            Specification\nInstrument Type\tDigital     True RMS Clamp Meter\nMeasurement Method\t    True RMS\nDisplay\t                    6000-count Backlit LCD\nJaw Opening\t            42 mm\nAuto Range\t            Yes\nData Hold\t            Yes\nMin/Max Recording\t    Yes\nInrush Current Measurement  Yes\nContinuity Buzzer\t    Yes\nPower Supply\t            9 V Battery\nSafety Rating\t            CAT IV 600 V / CAT III 1000 V\nOperating Temperature\t    -10°C to +50°C\nStorage Temperature\t    -20°C to +60°C",
+      "parametersMeasured": "AC Current (True RMS),\nDC Current,\nAC Voltage,\nDC Voltage,\nResistance,\nFrequency,\nCapacitance,\nDuty Cycle,\nContinuity,\nDiode Test,\nInrush Current,\nMinimum Value,\nMaximum Value,\nRelative Measurement,\nData Hold,\nAuto Power-Off.",
+      "accuracy": "AC Current\t±1.5% of reading ±5 digits, DC Current\t±1.5% of reading ±5 digits,  AC Voltage\t±1.0% of reading ±3 digits , DC Voltage\t±0.8% of reading ±2 digits , Resistance\t±1.0% of reading ±3 digits , Frequency\t±0.5% of reading , Capacitance\t±2.5% of reading , Continuity\t-Audible indication below specified resistance.",
+      "measurementRange": " AC Current\t0 A to 1000 A, DC Current\t0 A to 1000 A,  AC Voltage\t0 V to 1000 V ,DC Voltage\t0 V to 1000 V ,Resistance\t0 Ω to 60 MΩ ,Frequency\t10 Hz to 10 kHz, Capacitance\t1 nF to 100 mF .Duty Cycle\t0% to 99.9% ,Continuity\tUp to approximately 50 Ω.",
+      "resolution": "AC Current\t0.01 A ,DC Current\t0.01 A,  AC Voltage\t0.1 V,  DC Voltage\t0.1 V,  Resistance\t0.1 Ω , Frequency\t0.1 Hz , Capacitance\t1 nF , Duty Cycle\t0.1%.",
+      "applications": "Industrial Electrical Maintenance\nEnergy Audit Measurements\nElectrical Troubleshooting\nMotor Current Analysis\nTransformer Load Monitoring\nGenerator Testing\nElectrical Panel Inspection\nPreventive Maintenance\nBuilding Electrical Services\nHVAC System Maintenance\nSolar PV System Inspection\nUPS and Battery System Testing\nManufacturing Plant Maintenance\nElectrical Installation Verification\nLaboratory and Educational Applications",
+      "operatingProcedure": "Inspect the clamp meter, clamp jaw, and test leads for any visible damage.\nVerify that the battery is fully charged and the calibration certificate is valid.\nTurn the rotary selector switch to the required measurement function.\nFor current measurement, press the trigger to open the clamp jaw.\nClamp around only one conductor and position it at the center of the jaw.\nRead the measured current value on the display.\nFor voltage measurements, connect the test leads to the appropriate input terminals and measure across the circuit.\nEnsure the circuit is de-energized before measuring resistance, continuity, capacitance, or diode functions.\nUse the Data Hold function to freeze the displayed value if required.\nUse the Min/Max function to capture fluctuating readings during operation.\nRecord the measurement results for documentation.\nRemove the clamp from the conductor or disconnect the test leads after completing the measurements.\nSwitch OFF the instrument to conserve battery life.\nClean the instrument and store it safely in its carrying case.",
+      "calibrationProcedure": "Inspect and clean the clamp meter, clamp jaw, and test leads.\nVerify the battery condition before calibration.\nConnect the instrument to a certified electrical calibration system.\nApply traceable AC current values and verify measurement accuracy.\nApply calibrated DC current values and compare readings.\nVerify AC and DC voltage measurements using a precision voltage calibrator.\nCheck resistance measurement using certified resistance standards.\nVerify frequency accuracy using a calibrated frequency generator.\nTest capacitance measurement using certified capacitor standards.\nVerify continuity and diode test functions.\nPerform functional verification of the display, Data Hold, Min/Max, and auto power-off features.\nAdjust calibration if required according to manufacturer procedures.\nGenerate a calibration certificate.\nAttach a calibration label indicating the calibration date and next due date.\nRecord all calibration information in the maintenance log.\n\nRecommended Calibration Interval: Every 12 months.",
+      "safetyInstructions": "Read the operating manual thoroughly before using the clamp meter.\nOnly qualified personnel should perform electrical measurements.\nWear appropriate Personal Protective Equipment (PPE), including insulated gloves, safety glasses, and protective footwear.\nVerify that the instrument's CAT IV 600 V / CAT III 1000 V safety rating is suitable for the intended application.\nInspect the clamp jaw, housing, and test leads before every use.\nNever use the instrument if any damage or malfunction is observed.\nClamp around only one conductor during current measurements.\nNever exceed the instrument's maximum voltage or current ratings.\nEnsure the circuit is de-energized before measuring resistance, continuity, capacitance, or diode functions.\nKeep fingers behind the protective finger guards while using the test leads.\nAvoid using the instrument in wet, humid, or explosive environments.\nReplace the battery only with the recommended battery type.\nClean the instrument with a soft, dry cloth; avoid using chemicals or solvents.\nStore the clamp meter in a clean, dry, and dust-free environment.\nPerform annual calibration to maintain measurement accuracy, reliability, and compliance with quality standards.",
+      "userManualUrl": "",
+      "youtubeUrl": "https://youtu.be/3INLQ8u6ZFE?si=XW21MQw0RONYWgwF"
     },
     {
       "id": "Ey3k7EXu",
@@ -148,7 +286,8 @@
       "model": "F601",
       "serial": "UWF11",
       "lastCalibrationDate": "2026-05-25T05:31:03.500Z",
-      "nextCalibrationDate": "2026-10-02T05:31:03.500Z"
+      "nextCalibrationDate": "2026-10-02T05:31:03.500Z",
+      "lastInsight": "sensor broken"
     },
     {
       "id": "RSywpOEK",
@@ -734,7 +873,7 @@
     },
     {
       "id": "prUl-bMX",
-      "returnedDate": null,
+      "returnedDate": "2026-06-25T05:36:28.220Z",
       "userId": 1,
       "instrumentId": "ql1fq3Ah",
       "startDate": "2026-06-24T08:25:26.136Z",
@@ -743,7 +882,7 @@
     },
     {
       "id": "GOG17Bse",
-      "returnedDate": null,
+      "returnedDate": "2026-06-25T05:36:28.230Z",
       "userId": 1,
       "instrumentId": "hu41OzMM",
       "startDate": "2026-06-24T08:25:26.136Z",
@@ -752,7 +891,7 @@
     },
     {
       "id": "PbcljW01",
-      "returnedDate": null,
+      "returnedDate": "2026-06-25T05:36:28.260Z",
       "userId": 1,
       "instrumentId": "pVGTEirq",
       "startDate": "2026-06-24T08:25:26.136Z",
@@ -761,7 +900,7 @@
     },
     {
       "id": "Xs-Te0F9",
-      "returnedDate": null,
+      "returnedDate": "2026-06-25T05:36:28.239Z",
       "userId": null,
       "instrumentId": "Ey3k7EXu",
       "startDate": "2026-06-24T08:41:59.229Z",
@@ -770,11 +909,56 @@
     },
     {
       "id": "DVqvGqV7",
-      "returnedDate": null,
+      "returnedDate": "2026-06-25T05:36:28.250Z",
       "userId": null,
       "instrumentId": "wxerSEpq",
       "startDate": "2026-06-24T08:41:59.229Z",
       "dueDate": "2026-07-04T08:41:59.229Z",
+      "remarks": "XYZ industry"
+    },
+    {
+      "id": "LQHIGJoc",
+      "returnedDate": null,
+      "userId": 1,
+      "instrumentId": "Ey3k7EXu",
+      "startDate": "2026-06-25T05:37:43.993Z",
+      "dueDate": "2026-07-02T05:37:43.993Z",
+      "remarks": "xyz company"
+    },
+    {
+      "id": "kqg-OUky",
+      "returnedDate": null,
+      "userId": 1,
+      "instrumentId": "wxerSEpq",
+      "startDate": "2026-06-25T05:37:43.993Z",
+      "dueDate": "2026-07-02T05:37:43.993Z",
+      "remarks": "xyz company"
+    },
+    {
+      "id": "-jTmdE-U",
+      "returnedDate": null,
+      "userId": 1,
+      "instrumentId": "pVGTEirq",
+      "startDate": "2026-06-25T05:37:43.993Z",
+      "dueDate": "2026-07-02T05:37:43.993Z",
+      "remarks": "xyz company"
+    },
+    {
+      "id": "RE1o9fBw",
+      "returnedDate": null,
+      "userId": 1,
+      "instrumentId": "ql1fq3Ah",
+      "startDate": "2026-06-25T07:05:11.743Z",
+      "dueDate": "2026-07-02T07:05:11.743Z",
+      "remarks": "XYZ industry"
+    },
+    {
+      "id": "_m9nHit5",
+      "returnedDate": null,
+      "userId": 1,
+      "instrumentId": "ymiNjydl",
+      "startDate": "2026-06-25T07:05:11.743Z",
+      "dueDate": "2026-07-02T07:05:11.743Z",
       "remarks": "XYZ industry"
     }
   ]
